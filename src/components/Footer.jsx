@@ -3,7 +3,8 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
+import spooch from "images/nat-icon.png"
+
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -44,7 +45,7 @@ const FooterAuthor = styled("a")`
 `
 
 const FooterSpooch = styled("img")`
-    max-width: 33px;
+    max-width: 150px;
     margin-top: 0.25em;
 `
 
@@ -54,8 +55,8 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://www.marguerite.io/?utm_source=prist&utm_medium=footer&utm_campaign=prist_starter">
-            © 2019 — Designed & developed by Marguerite Roth
-            <FooterSpooch className="FooterSpooch" src={spooch} />
+            © 2020 — Built with Gatsby + Prist 
+            <FooterSpooch className="FooterSpooch" src={spooch} width="50" height="50"/>
         </FooterAuthor>
     </FooterContainer>
 )
