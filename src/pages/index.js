@@ -12,10 +12,10 @@ import Layout from "components/Layout";
 import ProjectCard from "components/ProjectCard";
 
 const Hero = styled("div")`
-    padding-top: 2.5em;
-    padding-bottom: 3em;
-    margin-bottom: 6em;
-    max-width: 830px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 5em;
+    max-width: 860px;
 
     @media(max-width:${dimensions.maxwidthMobile}px) {
        margin-bottom: 3em;
@@ -156,7 +156,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 />
             ))}
             <WorkAction to={"/work"}>
-                See more work <span>&#8594;</span>
+                More projects <span>&#8594;</span>
             </WorkAction>
         </Section>
         <Section>
