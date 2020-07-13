@@ -17,18 +17,18 @@ const HeaderContent = styled("div")`
 
 const HeaderLinks = styled("div")`
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 7em;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 3em;
     justify-content: flex-end;
     width: 100%;
     max-width: 200px;
 
     @media(max-width: ${dimensions.maxwidthTablet}px) {
-        grid-gap: 5.5em;
+        grid-gap: 2.5em;
     }
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
-        grid-gap: 2.5em;
+        grid-gap: 1.5em;
     }
 
     a {
@@ -37,7 +37,7 @@ const HeaderLinks = styled("div")`
         border-bottom: 3px solid transparent;
         font-weight: 600;
         font-size: 0.95em;
-        height: 100%;
+        height: 40%;
         padding-bottom: 1.25em;
         padding-top: 0.25em;
         display: block;
@@ -88,6 +88,16 @@ const Header = () => (
                     activeClassName="Link--is-active"
                     to="/blog">
                     Writing
+                </Link>
+                <Link
+                    activeClassName="Link--is-active"
+                    to="/about">
+                    About
+                </Link>
+                <Link
+                    activeClassName="Link--is-active"
+                    to="/about">
+                    Contact
                 </Link>
             </HeaderLinks>
         </HeaderContent>

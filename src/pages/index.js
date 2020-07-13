@@ -156,7 +156,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 />
             ))}
             <WorkAction to={"/work"}>
-                More projects <span>&#8594;</span>
+                All projects <span>&#8594;</span>
             </WorkAction>
         </Section>
         <Section>

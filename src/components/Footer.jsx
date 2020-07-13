@@ -25,7 +25,7 @@ const FooterAuthor = styled("a")`
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
 
      &:hover {
          color: ${colors.blue900};
@@ -46,7 +46,7 @@ const FooterAuthor = styled("a")`
 
 const FooterSpooch = styled("img")`
     max-width: 150px;
-    margin-top: 0.25em;
+    margin-top: 1.25em;
 `
 
 const Footer = () => (
