@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prist | A Gatsby & Prismic Starter
 
 A light-themed starter powered by [Gatsby v2](https://www.gatsbyjs.org) and [Prismic](https://prismic.io/) to showcase portfolios and blogs.
@@ -324,3 +325,6 @@ Additionally, clearing the cache, node modules, and package-lock.json can also c
 1. `rm -rf node_modules .cache package-lock.json`
 2. `npm install`
 
+=======
+# nat-portfolio-web
+>>>>>>> 67e40ddbf8eea4e354317703db41074f7fc75064
