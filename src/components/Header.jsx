@@ -4,6 +4,8 @@ import styled from "@emotion/styled";
 import colors from "styles/colors";
 import dimensions from "styles/dimensions";
 import Logo from "components/_ui/Logo";
+import About from "../components/About";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const HeaderContainer = styled("div")`
     padding-top: 2em;
@@ -89,11 +91,11 @@ const Header = () => (
                     to="/blog">
                     Writing
                 </Link>
-                <Link
+                <AnchorLink
                     activeClassName="Link--is-active"
-                    to="/about">
+                    to='/#about'>
                     About
-                </Link>
+                </AnchorLink>
                 <Link
                     activeClassName="Link--is-active"
                     to="/contact">

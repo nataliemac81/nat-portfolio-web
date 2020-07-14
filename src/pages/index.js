@@ -159,13 +159,15 @@ const RenderBody = ({ home, projects, meta }) => (
                 All projects <span>&#8594;</span>
             </WorkAction>
         </Section>
-        <Section>
+       
+        <Section id="about">
             {RichText.render(home.about_title)}
-            <About
-                bio={home.about_bio}
-                socialLinks={home.about_links}
-            />
+                <About
+                    bio={home.about_bio}
+                    socialLinks={home.about_links}
+                />
         </Section>
+        
     </>
 );
 
