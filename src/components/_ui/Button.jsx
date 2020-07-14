@@ -4,14 +4,14 @@ import colors from "styles/colors";
 import dimensions from "styles/dimensions";
 
 const ButtonContainer = styled("button")`
-    padding: 1em 2em;
-    background: ${colors.blue400};
-    font-weight: 600;
+    padding: 0.5em 2em;
+    background: ${colors.purple000};
+    font-weight: 800;
     color: white;
     outline: none;
     border: none;
-    font-size: 1rem;
-    border-radius: 2px;
+    font-size: 1.2rem;
+    border-radius: 3px;
     position: relative;
     transition: background 100ms ease-in-out;
 

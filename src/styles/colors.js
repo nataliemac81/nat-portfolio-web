@@ -49,11 +49,14 @@ const colors = {
     purple300: "#D3B0FF",
     purple200: "#F0E5FF",
     purple100: "#F8F2FF",
+    purple000: "#5130AD",
 
     teal600: "#159f9f",
     teal500: "#17B1B1",
     teal200: "#D1EFEF",
     teal100: "#E8F7F7",
+
+    yellow500: "#ECCF58",
 }
 
 export default colors;
