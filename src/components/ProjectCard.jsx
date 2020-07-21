@@ -32,7 +32,7 @@ const ProjectCardContainer = styled(Link)`
         transition: all 150ms ease-in-out;
 
         .ProjectCardAction {
-            color: ${colors.blue500};
+            color: ${colors.purple000};
             transition: all 150ms ease-in-out;
 
             span {
@@ -66,7 +66,7 @@ const ProjectCardContent = styled("div")`
         height: 100%;
         left: 0;
         top: 0;
-        background: ${colors.blue500};
+        background: ${colors.purple300};
         mix-blend-mode: multiply;
         opacity: 0;
         transition: all 150ms ease-in-out;
@@ -140,7 +140,7 @@ const ProjectCardImageContainer = styled("div")`
         height: 100%;
         left: 0;
         top: 0;
-        background: ${colors.blue500};
+        background: ${colors.purple300};
         mix-blend-mode: multiply;
         opacity: 0;
         transition: all 150ms ease-in-out;
@@ -171,7 +171,7 @@ const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
                 {RichText.render(description)}
             </ProjectCardBlurb>
             <ProjectCardAction className="ProjectCardAction">
-                Details <span>&#8594;</span>
+                More <span>&#8594;</span>
             </ProjectCardAction>
         </ProjectCardContent>
         <ProjectCardImageContainer className="ProjectCardImageContainer">

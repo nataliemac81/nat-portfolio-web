@@ -56,7 +56,14 @@ const colors = {
     teal200: "#D1EFEF",
     teal100: "#E8F7F7",
 
-    yellow500: "#ECCF58",
+    yellow700: "#ECCF58",
+    yellow600: "#edd367",
+    yellow500: "#efd878",
+    yellow400:"#f1dd89",
+    yellow300:"#f3e29a",
+    yellow200:"#f5e7ab",
+    yellow100:"#f7ebbb",
+    yellow000:"#f9f0cc",
 }
 
 export default colors;

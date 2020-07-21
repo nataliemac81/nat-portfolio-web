@@ -3,8 +3,8 @@ import dimensions from "styles/dimensions";
 
 const typeStyles = css`
     h1 {
-        font-size: 2.25em;
-        line-height: 1.45;
+        font-size: 2.75em;
+        line-height: 1.55;
         font-weight: 800;
 
         @media(max-width:${dimensions.maxwidthTablet}px) {
