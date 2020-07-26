@@ -40,7 +40,7 @@ const Hero = styled("div")`
 
                 &:nth-of-type(1) { color: ${colors.purple600};    background-color: ${colors.purple200};}
                 &:nth-of-type(2) { color: ${colors.teal600};  background-color: ${colors.teal200};}
-                &:nth-of-type(3) { color: ${colors.pink500};  background-color: ${colors.pink200};}
+                &:nth-of-type(3) { color: ${colors.pink500};  background-color: ${colors.pink300};}
                 &:nth-of-type(4) { color: ${colors.yellow600};   background-color: ${colors.yellow000};}
                 &:nth-of-type(5) { color: ${colors.orange600};    background-color: ${colors.orange200};}
 
