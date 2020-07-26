@@ -54,7 +54,7 @@ const Footer = () => (
         <Link to="/">
             <Logo />
         </Link>
-        <FooterAuthor href="https://www.marguerite.io/?utm_source=prist&utm_medium=footer&utm_campaign=prist_starter">
+        <FooterAuthor href="https://www.gatsbyjs.org/starters/margueriteroth/gatsby-prismic-starter-prist/">
             © 2020 — Built with Gatsby + Prist 
             <FooterSpooch className="FooterSpooch" src={spooch} width="50" height="50"/>
         </FooterAuthor>
