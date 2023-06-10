@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Marguerite Roth | marguerite.io | marguerite.roth@gmail.com",
   "dependencies": {
-    "gatsby": "^2.12.0",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-catch-links": "^2.0.12",
